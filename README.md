@@ -7,6 +7,7 @@ A Node.js application to scan your local network 🏠, detect online devices �
 ```plaintext
 
 network-scanner/
+├── public├── index.html
 ├── scanNetwork.js        # 🖥️ Main script to scan the network
 ├── package.json          # 📦 Project metadata and dependencies
 ├── .gitignore            # 🚫 Files to ignore (node_modules, etc.)
