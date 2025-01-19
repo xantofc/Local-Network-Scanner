@@ -4,18 +4,21 @@ A Node.js application to scan your local network 🏠, detect online devices �
 
 ## Project Structure 📂:
 
-```plaintext
 network-scanner/
 ├── scanNetwork.js        # 🖥️ Main script to scan the network
 ├── package.json          # 📦 Project metadata and dependencies
 ├── .gitignore            # 🚫 Files to ignore (node_modules, etc.)
 └── README.md             # 📖 Project description and usage instructions
+
+
 Features ✨:
 Scans local network (IPv4 subnet) 🔄.
 Pings each device in the subnet (192.168.1.x to 192.168.1.254) 📶.
 Saves the results in a connected_devices.json file 💾.
 Records whether the device is online ✅ and its response time ⏱️.
 Displays real-time results 🌟.
+
+
 Prerequisites ⚙️:
 Node.js (Version >= 14.x) 💻
 A local network (Wi-Fi, Ethernet, etc.) 🌐
